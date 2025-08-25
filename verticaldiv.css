@@ -1,0 +1,17 @@
+
+    .container {
+      display: flex;
+      height: 100vh; /* Full viewport height */
+    }
+
+    .left {
+      flex: 1;
+      background-color: lightslategray;
+      padding: 20px;
+    }
+
+    .right {
+      flex: 2;
+      background-color:darkgray;
+      padding: 20px;
+    }
