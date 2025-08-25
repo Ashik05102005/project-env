@@ -1,17 +1,19 @@
 
     .container {
       display: flex;
-      height: 100vh; /* Full viewport height */
+      height: 200vh; 
     }
 
     .left {
       flex: 1;
       background-color: lightslategray;
       padding: 20px;
+       border-radius: 16px;
     }
 
     .right {
       flex: 2;
-      background-color:darkgray;
+      background-color:whitesmoke;
       padding: 20px;
+      border-radius: 16px;
     }
